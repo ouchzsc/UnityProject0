@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: 8151c25fbe0ce49498e439d6964ec320
+timeCreated: 1439391634
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FlameSwordCombo_0
+    21300002: FlameSwordCombo_1
+    21300004: FlameSwordCombo_2
+    21300006: FlameSwordCombo_3
+    21300008: FlameSwordCombo_4
+    21300010: FlameSwordCombo_5
+    21300012: FlameSwordCombo_6
+    21300014: FlameSwordCombo_7
+    21300016: FlameSwordCombo_8
+    21300018: FlameSwordCombo_9
+    21300020: FlameSwordCombo_10
+    21300022: FlameSwordCombo_11
+    21300024: FlameSwordCombo_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: FlameSwordCombo_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 4
+        width: 90
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlameSwordCombo_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 4
+        width: 90
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlameSwordCombo_2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 4
+        width: 90
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlameSwordCombo_3
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 4
+        width: 90
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlameSwordCombo_4
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 4
+        width: 90
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlameSwordCombo_5
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 4
+        width: 90
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlameSwordCombo_6
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 4
+        width: 90
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlameSwordCombo_7
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 4
+        width: 90
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlameSwordCombo_8
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 4
+        width: 90
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlameSwordCombo_9
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 4
+        width: 90
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlameSwordCombo_10
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 4
+        width: 90
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlameSwordCombo_11
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 4
+        width: 90
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FlameSwordCombo_12
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 4
+        width: 89
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
