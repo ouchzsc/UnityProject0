@@ -3,8 +3,6 @@ using System.Collections;
 
 public class MoveController : MonoBehaviour {
 
-    public Transform FeetPoint;
-    public LayerMask WhatIsGround;
     public float WalkSpeed = 1f;
     public float RunSpeed = 4f;
 
@@ -21,15 +19,16 @@ public class MoveController : MonoBehaviour {
 	}
 	
 	void Update () {
-        if (!Physics2D.OverlapPoint(FeetPoint.position, WhatIsGround))
+        if (animator.GetBool("InAir"))
             return;
-        Horizontal = Input.GetAxisRaw("Horizontal");
-        if (Horizontal != 0)
-            transform.localScale = new Vector3(Horizontal, 1, 1);
+        Horizontal = Input.GetAxis("Horizontal");
+        if (Horizontal > 0)
+            transform.localScale = new Vector3(1, 1, 1);
+        if (Horizontal < 0)
+            transform.localScale = new Vector3(-1, 1, 1);
         RealSpeed = RunSpeed * Horizontal;
         if (Input.GetButton("Down"))        
-            RealSpeed = WalkSpeed * Horizontal;       
-            
+            RealSpeed = WalkSpeed * Horizontal; 
         rigidbody.velocity = new Vector2(RealSpeed, rigidbody.velocity.y);
         animator.SetFloat("Speed", Mathf.Abs(RealSpeed));
 	}
