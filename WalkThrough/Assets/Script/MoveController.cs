@@ -21,7 +21,7 @@ public class MoveController : MonoBehaviour {
 	void Update () {
         if (animator.GetBool("InAir"))
             return;
-        Horizontal = Input.GetAxis("Horizontal");
+        Horizontal = Input.GetAxisRaw("Horizontal");
         if (Horizontal > 0)
             transform.localScale = new Vector3(1, 1, 1);
         if (Horizontal < 0)

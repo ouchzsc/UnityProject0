@@ -4,6 +4,9 @@ using System.Collections;
 public class JumpController : MonoBehaviour {
 
     public float JumpForce;
+    public float ARCJumpYSpeed;
+    public int ArcTime;
+    private int curArcTime;
 
     public Transform LeftFeet;
     public Transform RightFeet;
@@ -23,6 +26,7 @@ public class JumpController : MonoBehaviour {
         animator.SetFloat("VerticalSpeed", rigidbody.velocity.y);
         if (Physics2D.OverlapArea(LeftFeet.position, RightFeet.position, WhatIsGround) != null)
         {
+            curArcTime = 0;
             animator.SetBool("InAir", false);
             if (Input.GetButtonDown("Jump"))
             {
@@ -32,10 +36,11 @@ public class JumpController : MonoBehaviour {
         else
         {
             animator.SetBool("InAir", true);
-            if (Input.GetButtonDown("Jump"))
+            if (Input.GetButtonDown("Jump")&&curArcTime<ArcTime)
             {
                 animator.SetTrigger("ArcTrigger");
-                rigidbody.AddForce(new Vector2(0, JumpForce));
+                rigidbody.velocity = new Vector2(rigidbody.velocity.x,ARCJumpYSpeed);
+                curArcTime++;
             }
         }
         
