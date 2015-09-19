@@ -24,25 +24,15 @@ public class CameraFollow : MonoBehaviour
     {
         if (Hero.localScale.x == Dir)
         {
-            if (Target.position.x == Hero.position.x)
-            {
-                transform.position = new Vector3(transform.position.x-Target.position.x + Hero.position.x, transform.position.y);
-            }
-            else
+            if (Target.position.x != Hero.position.x)           
             {
                 //Camera catch hero X
                 float dis = (Hero.position.x - Target.position.x) * Dir;
                 if (dis > 0)
                 {
                     float newX;
-                    if (dis < CamCatchSpeedX)
-                    {
-                        newX = transform.position.x +dis*Dir;
-                    }
-                    else
-                    {
-                        newX = transform.position.x + CamCatchSpeedX*Dir;
-                    }
+                    if (dis < CamCatchSpeedX) newX = transform.position.x +dis*Dir;                    
+                    else newX = transform.position.x + CamCatchSpeedX*Dir;                    
                     transform.position=new Vector3(newX,transform.position.y);
                 }
             }
@@ -53,10 +43,6 @@ public class CameraFollow : MonoBehaviour
             {
                 //If Hero Reaches Edge,ChangeDir
                 ChangeDirection();
-            }
-            else
-            {
-                //Don't move
             }
         }
     }
@@ -84,7 +70,6 @@ public class CameraFollow : MonoBehaviour
         {            
             Gizmos.DrawLine(new Vector3(item.position.x, item.position.y + LineHeight, item.position.z), new Vector3(item.position.x, item.position.y - LineHeight, item.position.z));
         }
-
     }
 
     
