@@ -29,6 +29,5 @@ D:\Unity Project\WalkThrough1\UnityProject0\WalkThrough\Temp\UnityVS_bin\Debug\U
 D:\Unity Project\WalkThrough1\UnityProject0\WalkThrough\Temp\UnityVS_bin\Debug\UnityEngine.Networking.xml
 D:\Unity Project\WalkThrough1\UnityProject0\WalkThrough\Temp\UnityVS_bin\Debug\UnityEngine.Analytics.xml
 D:\Unity Project\WalkThrough1\UnityProject0\WalkThrough\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
-D:\Unity Project\WalkThrough1\UnityProject0\WalkThrough\obj\Debug\UnityVS.WalkThrough.CSharp.csprojResolveAssemblyReference.cache
 D:\Unity Project\WalkThrough1\UnityProject0\WalkThrough\obj\Debug\Assembly-CSharp.dll
 D:\Unity Project\WalkThrough1\UnityProject0\WalkThrough\obj\Debug\Assembly-CSharp.pdb
